@@ -35,25 +35,25 @@ public class Temperature {
     private class min {
         @Expose
         @SerializedName("celsius")
-        private int celsius;
+        private double celsius;
 
         @Expose
         @SerializedName("fahrenheit")
-        private int fahrenheit;
+        private double fahrenheit;
 
-        public int getCelsius() {
+        public double getCelsius() {
             return celsius;
         }
 
-        public void setCelsius(int celsius) {
+        public void setCelsius(double celsius) {
             this.celsius = celsius;
         }
 
-        public int getFahrenheit() {
+        public double getFahrenheit() {
             return fahrenheit;
         }
 
-        public void setFahrenheit(int fahrenheit) {
+        public void setFahrenheit(double fahrenheit) {
             this.fahrenheit = fahrenheit;
         }
     }
@@ -61,25 +61,25 @@ public class Temperature {
     private class max {
         @Expose
         @SerializedName("celsius")
-        private int celsius;
+        private double celsius;
 
         @Expose
         @SerializedName("fahrenheit")
-        private int fahrenheit;
+        private double fahrenheit;
 
-        public int getCelsius() {
+        public double getCelsius() {
             return celsius;
         }
 
-        public void setCelsius(int celsius) {
+        public void setCelsius(double celsius) {
             this.celsius = celsius;
         }
 
-        public int getFahrenheit() {
+        public double getFahrenheit() {
             return fahrenheit;
         }
 
-        public void setFahrenheit(int fahrenheit) {
+        public void setFahrenheit(double fahrenheit) {
             this.fahrenheit = fahrenheit;
         }
     }

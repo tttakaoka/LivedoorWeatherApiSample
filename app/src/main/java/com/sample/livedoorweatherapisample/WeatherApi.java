@@ -9,9 +9,9 @@ import rx.Observable;
 /**
  * REST インターフェース
  */
-public interface WeathreApi {
+public interface WeatherApi {
 
     @GET("/forecast/webservice/json/v1")
-    public Observable<WeatherEntity> getWeather(@Query("city") final String city);
+    Observable<WeatherEntity> getWeather(@Query("city") final String city);
 
 }
